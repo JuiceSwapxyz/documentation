@@ -36,3 +36,6 @@ jobs:
           username: ${{ secrets.DEV_USER }}
           password: ${{ secrets.DEV_PASSWORD }}
           local-dir: './src/.vuepress/dist/'
+          dangerous-clean-slate: false
+          timeout: 120000
+          log-level: verbose
