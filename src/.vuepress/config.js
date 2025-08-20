@@ -10,9 +10,17 @@ module.exports = {
     ["meta", { name: "theme-color", content: "#FF9933" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     ["meta", { name: "apple-mobile-web-app-status-bar-style", content: "black" }],
-    ["meta", { property: "og:image", content: "/assets/og_image.png" }],
+    ["meta", { property: "og:image", content: "https://docs.juiceswap.xyz/assets/og_image.png" }],
+    ["meta", { property: "og:image:width", content: "1200" }],
+    ["meta", { property: "og:image:height", content: "630" }],
     ["meta", { property: "og:title", content: "JuiceSwap Documentation" }],
     ["meta", { property: "og:description", content: "Official documentation for JuiceSwap - Decentralized Exchange Platform" }],
+    ["meta", { property: "og:type", content: "website" }],
+    ["meta", { property: "og:url", content: "https://docs.juiceswap.xyz/" }],
+    ["meta", { name: "twitter:card", content: "summary_large_image" }],
+    ["meta", { name: "twitter:image", content: "https://docs.juiceswap.xyz/assets/og_image.png" }],
+    ["meta", { name: "twitter:title", content: "JuiceSwap Documentation" }],
+    ["meta", { name: "twitter:description", content: "Official documentation for JuiceSwap - Decentralized Exchange Platform" }],
   ],
 
   themeConfig: {
