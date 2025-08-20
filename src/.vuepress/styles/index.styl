@@ -1,0 +1,187 @@
+// JuiceSwap Custom Styles - Light Theme
+
+// Light theme base
+body
+  background-color #ffffff
+  color #2c3e50
+
+// Navbar styling
+.navbar
+  background-color #ffffff
+  border-bottom 1px solid #eaecef
+  box-shadow 0 1px 6px 0 rgba(0,0,0,0.05)
+  .site-name
+    color #FF8C00 !important
+    font-weight 700
+  .nav-link
+    color #2c3e50 !important
+    &:hover
+      color #FF8C00 !important
+
+// Sidebar styling  
+.sidebar
+  background-color #ffffff
+  border-right 1px solid #eaecef
+  .sidebar-link
+    color #2c3e50
+    &.active
+      color #FF8C00
+      border-left-color #FF8C00
+      background-color #fff5ec
+    &:hover
+      color #FF8C00
+
+.sidebar-heading
+  color #999
+  font-weight 500
+
+// Homepage hero
+.home
+  .hero
+    .description
+      color #6a8bad
+    .action-button
+      background-color #FF8C00
+      border none
+      color #ffffff
+      font-weight 600
+      box-shadow 0 4px 12px rgba(255, 140, 0, 0.3)
+      &:hover
+        background-color #FF7700
+        box-shadow 0 6px 16px rgba(255, 140, 0, 0.4)
+  .features
+    border-top 1px solid #eaecef
+    background-color #fafafa
+  .feature
+    h2
+      color #2c3e50
+      font-weight 600
+    p
+      color #4e6e8e
+
+// Content styling
+.theme-default-content
+  h1, h2, h3, h4, h5, h6
+    color #2c3e50
+    font-weight 600
+  p
+    color #4e6e8e
+    line-height 1.7
+  
+// Code blocks
+div[class*="language-"]
+  background-color #fafafa
+  border 1px solid #eaecef
+  border-radius 6px
+  pre
+    background-color #fafafa !important
+  code
+    color #476582
+  .highlight-lines .highlighted
+    background-color rgba(255, 140, 0, 0.1)
+
+// Inline code
+code
+  background-color #f3f4f4
+  color #476582
+  padding 0.25rem 0.5rem
+  border-radius 3px
+
+// Links
+a
+  color #FF8C00
+  text-decoration none
+  &:hover
+    color #FF7700
+    text-decoration underline
+
+// Search box
+.search-box
+  input
+    background-color #f3f4f4
+    border 1px solid #eaecef
+    color #2c3e50
+    border-radius 6px
+    &:focus
+      border-color #FF8C00
+      background-color #ffffff
+
+// Tables
+table
+  border-collapse collapse
+  tr
+    border-top 1px solid #eaecef
+    &:nth-child(2n)
+      background-color #f6f8fa
+  th, td
+    border 1px solid #eaecef
+    padding 0.6em 1em
+
+// Blockquotes
+blockquote
+  border-left 0.25rem solid #FF8C00
+  color #999
+  background-color #fff5ec
+  padding 0.5rem 1rem
+  border-radius 0 6px 6px 0
+
+// Custom containers
+.custom-block
+  &.tip
+    background-color #f0f9ff
+    border-left 4px solid #3eaf7c
+  &.warning
+    background-color #fff5ec
+    border-left 4px solid #FF8C00
+  &.danger
+    background-color #ffe6e6
+    border-left 4px solid #cc0000
+
+// Buttons and interactive elements
+.btn
+  background-color #FF8C00
+  color #ffffff
+  border none
+  padding 0.5rem 1rem
+  border-radius 6px
+  font-weight 500
+  cursor pointer
+  transition all 0.3s ease
+  &:hover
+    background-color #FF7700
+    transform translateY(-2px)
+    box-shadow 0 4px 12px rgba(255, 140, 0, 0.3)
+
+// Page edit link
+.page-edit
+  .edit-link
+    color #FF8C00
+    &:hover
+      color #FF7700
+
+// Custom scrollbar
+::-webkit-scrollbar
+  width 10px
+  height 10px
+
+::-webkit-scrollbar-track
+  background #f1f1f1
+  border-radius 10px
+
+::-webkit-scrollbar-thumb
+  background #cccccc
+  border-radius 10px
+  &:hover
+    background #FF8C00
+
+// Modern card styling
+.card
+  background #ffffff
+  border-radius 8px
+  box-shadow 0 2px 12px rgba(0,0,0,0.08)
+  padding 1.5rem
+  margin 1rem 0
+  transition transform 0.3s ease, box-shadow 0.3s ease
+  &:hover
+    transform translateY(-4px)
+    box-shadow 0 4px 20px rgba(0,0,0,0.12)
