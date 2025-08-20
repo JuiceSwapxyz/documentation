@@ -1,2 +1,1 @@
-# documentation
-documentation for JuiceSwap.xyz
+# Documentation
