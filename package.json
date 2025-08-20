@@ -1,0 +1,21 @@
+{
+  "name": "JuiceSwap-documentation",
+  "version": "0.0.1",
+  "description": "Documentation for JuiceSwap",
+  "main": "index.js",
+  "authors": {
+    "name": "JuiceSwap",
+    "email": "info@juiceswap.xyz"
+  },
+  "repository": "https://github.com/JuiceSwapxyz/documentation/",
+  "scripts": {
+    "start": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "@vuepress/plugin-back-to-top": "^1.5.3",
+    "@vuepress/plugin-medium-zoom": "^1.5.3"
+  }
+}
