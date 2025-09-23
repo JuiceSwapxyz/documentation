@@ -80,10 +80,10 @@ module.exports = {
             const fs = require('fs');
             const path = require('path');
 
-            // Copy both media and media_kit directories
+            // Copy both media and media_kit directories (both in root)
             const dirsToCopy = [
-              { source: path.join(__dirname, '../media'), target: 'media' },
-              { source: path.join(__dirname, '../../media_kit'), target: 'media_kit' }  // media_kit is in root
+              { source: path.join(__dirname, '../../media'), target: 'media' },
+              { source: path.join(__dirname, '../../media_kit'), target: 'media_kit' }
             ];
 
             function copyRecursiveSync(src, dest) {

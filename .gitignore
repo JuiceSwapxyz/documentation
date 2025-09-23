@@ -5,3 +5,4 @@ dist/
 src/.vuepress/dist/
 .DS_Store
 *.log
+.claude/settings.local.json
