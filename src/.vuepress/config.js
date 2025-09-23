@@ -72,6 +72,54 @@ module.exports = {
 
   plugins: ["@vuepress/plugin-back-to-top", "@vuepress/plugin-medium-zoom"],
 
+  configureWebpack: {
+    plugins: [
+      {
+        apply: (compiler) => {
+          compiler.hooks.emit.tapAsync('CopyMediaFiles', (compilation, callback) => {
+            const fs = require('fs');
+            const path = require('path');
+
+            // Copy both media and media_kit directories
+            const dirsToCopy = [
+              { source: path.join(__dirname, '../media'), target: 'media' },
+              { source: path.join(__dirname, '../media_kit'), target: 'media_kit' }
+            ];
+
+            function copyRecursiveSync(src, dest) {
+              const exists = fs.existsSync(src);
+              const stats = exists && fs.statSync(src);
+              const isDirectory = exists && stats.isDirectory();
+
+              if (isDirectory) {
+                fs.readdirSync(src).forEach((childItemName) => {
+                  copyRecursiveSync(
+                    path.join(src, childItemName),
+                    path.join(dest, childItemName)
+                  );
+                });
+              } else {
+                const content = fs.readFileSync(src);
+                compilation.assets[dest] = {
+                  source: () => content,
+                  size: () => content.length
+                };
+              }
+            }
+
+            dirsToCopy.forEach(({ source, target }) => {
+              if (fs.existsSync(source)) {
+                copyRecursiveSync(source, target);
+              }
+            });
+
+            callback();
+          });
+        }
+      }
+    ]
+  },
+
   chainWebpack: (config) => {
     config.module
       .rule("vue")
