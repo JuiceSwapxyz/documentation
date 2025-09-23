@@ -10,6 +10,8 @@ The following icons are available for use:
 
 - **CBTC Icon (PNG)**: `https://docs.juiceswap.xyz/media/icons/cbtc.png`
 - **CBTC Icon (SVG)**: `https://docs.juiceswap.xyz/media/icons/cbtc.svg`
+- **CUSD Icon (PNG)**: `https://docs.juiceswap.xyz/media/icons/cusd.png`
+- **NUSD Icon (PNG)**: `https://docs.juiceswap.xyz/media/icons/nusd.png`
 
 ## How to Use
 
@@ -38,7 +40,9 @@ Simply use the full URL to link directly to any asset:
 media/
 ├── icons/
 │   ├── cbtc.png
-│   └── cbtc.svg
+│   ├── cbtc.svg
+│   ├── cusd.png
+│   └── nusd.png
 └── README.md
 ```
 
