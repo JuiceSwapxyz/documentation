@@ -2,21 +2,21 @@
 home: true
 heroImage: /assets/logo.png
 heroText: JuiceSwap
-tagline: Next-Generation Decentralized Exchange Protocol
+tagline: Decentralized Exchange on Citrea - Bitcoin's First ZK Rollup
 actionText: Get Started →
 actionLink: /overview
 features:
-- title: 🔄 Automated Market Making
-  details: Advanced liquidity pools with optimized swap routing for minimal slippage and best execution prices
-- title: 🔒 Secure & Decentralized
-  details: Non-custodial protocol with audited smart contracts ensuring your funds remain under your control
-- title: ⚡ Lightning Fast
-  details: High-performance infrastructure delivering instant swaps with minimal gas fees
-- title: 💎 Liquidity Mining
-  details: Earn rewards by providing liquidity to pools and participating in the JuiceSwap ecosystem
-- title: 🌉 Cross-Chain Bridges
-  details: Seamlessly swap assets across multiple blockchain networks with our bridge technology
-- title: 🏛️ Community Governance
-  details: Shape the future of JuiceSwap through decentralized governance and proposal voting
-footer: MIT Licensed | Copyright © 2024 JuiceSwap
+- title: Concentrated Liquidity
+  details: Uniswap V3 technology lets you focus capital in custom price ranges for up to 4000x capital efficiency
+- title: Double Yield for LPs
+  details: Earn swap fees plus automatic savings interest through svJUSD integration - unique to JuiceSwap
+- title: No Admin Keys
+  details: Fully immutable contracts with veto-based governance. No upgrades, no backdoors, no trust required
+- title: Bitcoin-Secured
+  details: Built on Citrea, Bitcoin's first ZK rollup. Your trades inherit Bitcoin's security through ZK proofs
+- title: JuiceDollar Integration
+  details: Native integration with JUSD stablecoin ecosystem. Automatic JUSD/svJUSD conversion for optimal yields
+- title: Cypherpunk Ethos
+  details: Permissionless, censorship-resistant, and truly decentralized. Code is law - no exceptions
+footer: MIT Licensed | Copyright © 2025 JuiceSwap
 ---
