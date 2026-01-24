@@ -41,32 +41,14 @@ module.exports = {
 
     sidebar: [
       { title: "Overview", path: "/overview" },
-
-      { title: "Stablecoin Bridges", path: "/swap" },
-
-      { title: "Collateralized Minting", path: "/positions",
-        children: [
-          "/positions/open",
-          "/positions/clone",
-          "/positions/adjust",
-          "/positions/auctions",
-        ],
-      },
-
-      { title: "Reserve", path: "/reserve",
-        children: [
-          "/reserve/pool-shares",
-        ],
-      },
-
+      { title: "Swapping Tokens", path: "/swap" },
+      { title: "Providing Liquidity", path: "/liquidity" },
       { title: "Governance", path: "/governance" },
-
-      { title: "Telegram API Bot", path: "/telegram-api-bot" },
-      { title:  "Disclaimer", path: "/disclaimer" },
+      { title: "Smart Contracts", path: "/smart-contracts" },
+      { title: "FAQ", path: "/faq" },
+      { title: "Disclaimer", path: "/disclaimer" },
       { title: "Privacy", path: "/privacy" },
       { title: "Imprint", path: "/imprint" },
-      { title: "FAQ", path: "/faq" },
-
     ],
   },
 
