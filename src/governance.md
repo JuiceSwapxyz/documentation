@@ -248,7 +248,8 @@ event ProposalFeeCollected(uint256 indexed proposalId, uint256 amount);
 |----------|-------|-------------|
 | `PROPOSAL_FEE` | 1,000 JUSD | Cost to create proposal |
 | `MIN_APPLICATION_PERIOD` | 14 days | Minimum veto period |
-| `QUORUM` | 2% | Voting power needed for veto |
+
+**Note:** The 2% veto threshold is not a constant in JuiceSwapGovernor. It is enforced by `JUICE.checkQualified()` in the JUICE (Equity) contract, which JuiceSwap inherits from JuiceDollar.
 
 ## Best Practices
 

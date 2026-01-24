@@ -94,7 +94,7 @@ Governance contract using JUICE token voting with veto mechanism.
 | **Address** | [`0x205903c54C56bCED8C97f2DC250BA53d715174e9`](https://explorer.testnet.citrea.xyz/address/0x205903c54C56bCED8C97f2DC250BA53d715174e9) |
 | **Proposal Fee** | 1,000 JUSD |
 | **Min Application Period** | 14 days |
-| **Veto Quorum** | 2% |
+| **Veto Quorum** | 2% (via JUICE.checkQualified) |
 
 ---
 
