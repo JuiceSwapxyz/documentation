@@ -217,7 +217,7 @@ If price moved outside your position's range:
 
 ## Resources
 
-- **App**: [app.juiceswap.xyz](https://app.juiceswap.xyz)
+- **App**: [bapp.juiceswap.com](https://bapp.juiceswap.com)
 - **GitHub**: [github.com/JuiceSwapxyz](https://github.com/JuiceSwapxyz)
 - **JuiceDollar Docs**: [docs.juicedollar.com](https://docs.juicedollar.com)
 - **Citrea**: [citrea.xyz](https://citrea.xyz)

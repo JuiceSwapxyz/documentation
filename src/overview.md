@@ -159,7 +159,7 @@ All contracts are deployed on **Citrea Testnet** (Chain ID: 5115):
 
 ## Resources
 
-- **App**: [app.juiceswap.xyz](https://app.juiceswap.xyz)
+- **App**: [bapp.juiceswap.com](https://bapp.juiceswap.com)
 - **GitHub**: [github.com/JuiceSwapxyz](https://github.com/JuiceSwapxyz)
 - **JuiceDollar Docs**: [docs.juicedollar.com](https://docs.juicedollar.com)
 - **Explorer**: [explorer.testnet.citrea.xyz](https://explorer.testnet.citrea.xyz)
