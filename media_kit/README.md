@@ -63,30 +63,30 @@ Platform-specific social media assets
 
 ### Direct Links
 ```
-https://docs.juiceswap.xyz/media_kit/01_Logo/01_Logo/PNG/Juice_Swap_full_logo.png
-https://docs.juiceswap.xyz/media_kit/02_App_Icons/Juice_Swap_512x512_App_Icon.png
-https://docs.juiceswap.xyz/media_kit/03_Website/Favicon/ICO/favicon.ico
+https://docs.juiceswap.com/media_kit/01_Logo/01_Logo/PNG/Juice_Swap_full_logo.png
+https://docs.juiceswap.com/media_kit/02_App_Icons/Juice_Swap_512x512_App_Icon.png
+https://docs.juiceswap.com/media_kit/03_Website/Favicon/ICO/favicon.ico
 ```
 
 ### In Markdown
 ```markdown
-![JuiceSwap Logo](https://docs.juiceswap.xyz/media_kit/01_Logo/01_Logo/PNG/Juice_Swap_full_logo.png)
+![JuiceSwap Logo](https://docs.juiceswap.com/media_kit/01_Logo/01_Logo/PNG/Juice_Swap_full_logo.png)
 ```
 
 ### In HTML
 ```html
-<img src="https://docs.juiceswap.xyz/media_kit/02_App_Icons/Juice_Swap_256x256_App_Icon.png" alt="JuiceSwap" />
+<img src="https://docs.juiceswap.com/media_kit/02_App_Icons/Juice_Swap_256x256_App_Icon.png" alt="JuiceSwap" />
 ```
 
 ### As Favicon
 ```html
-<link rel="icon" href="https://docs.juiceswap.xyz/media_kit/03_Website/Favicon/ICO/favicon.ico" />
-<link rel="icon" type="image/png" sizes="32x32" href="https://docs.juiceswap.xyz/media_kit/03_Website/Favicon/Juice_Swap_FavIcon_32px.png" />
+<link rel="icon" href="https://docs.juiceswap.com/media_kit/03_Website/Favicon/ICO/favicon.ico" />
+<link rel="icon" type="image/png" sizes="32x32" href="https://docs.juiceswap.com/media_kit/03_Website/Favicon/Juice_Swap_FavIcon_32px.png" />
 ```
 
 ### Open Graph Meta Tags
 ```html
-<meta property="og:image" content="https://docs.juiceswap.xyz/media_kit/03_Website/Og_image/Juice_Swap_og_image.png" />
+<meta property="og:image" content="https://docs.juiceswap.com/media_kit/03_Website/Og_image/Juice_Swap_og_image.png" />
 ```
 
 ## 🎨 Brand Guidelines
