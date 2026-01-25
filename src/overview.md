@@ -114,20 +114,20 @@ All contracts are deployed on **Citrea Testnet** (Chain ID: 5115):
 
 | Contract | Address |
 |----------|---------|
-| JuiceSwapGateway | [`0x3b59BCd4eFe392d715f4c57fA4218BFCAD5FB153`](https://explorer.testnet.citrea.xyz/address/0x3b59BCd4eFe392d715f4c57fA4218BFCAD5FB153) |
-| JuiceSwapGovernor | [`0x205903c54C56bCED8C97f2DC250BA53d715174e9`](https://explorer.testnet.citrea.xyz/address/0x205903c54C56bCED8C97f2DC250BA53d715174e9) |
-| JuiceSwapFeeCollector | [`0xc3d817C394d55aB57f5bF0Fc5C6878ccE033E32a`](https://explorer.testnet.citrea.xyz/address/0xc3d817C394d55aB57f5bF0Fc5C6878ccE033E32a) |
-| UniswapV3Factory | [`0x9136D17Ec096AAd031D442a796cd5984128cF0b2`](https://explorer.testnet.citrea.xyz/address/0x9136D17Ec096AAd031D442a796cd5984128cF0b2) |
-| SwapRouter | [`0x2d11a82633adD5b8742311fDa0E751264d093E7f`](https://explorer.testnet.citrea.xyz/address/0x2d11a82633adD5b8742311fDa0E751264d093E7f) |
-| NonfungiblePositionManager | [`0x56D63E0F763b29F62bb7242420d028F86e9402E1`](https://explorer.testnet.citrea.xyz/address/0x56D63E0F763b29F62bb7242420d028F86e9402E1) |
+| JuiceSwapGateway | [`0x8eE3Dd585752805A258ad3a963949a7c3fec44eB`](https://explorer.testnet.citrea.xyz/address/0x8eE3Dd585752805A258ad3a963949a7c3fec44eB) |
+| JuiceSwapGovernor | [`0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8`](https://explorer.testnet.citrea.xyz/address/0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8) |
+| JuiceSwapFeeCollector | [`0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E`](https://explorer.testnet.citrea.xyz/address/0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E) |
+| UniswapV3Factory | [`0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238`](https://explorer.testnet.citrea.xyz/address/0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238) |
+| SwapRouter | [`0x26C106BC45E0dd599cbDD871605497B2Fc87c185`](https://explorer.testnet.citrea.xyz/address/0x26C106BC45E0dd599cbDD871605497B2Fc87c185) |
+| NonfungiblePositionManager | [`0x86e7A161cb9696E6d438c0c77dd18244efa2B8b1`](https://explorer.testnet.citrea.xyz/address/0x86e7A161cb9696E6d438c0c77dd18244efa2B8b1) |
 
 ### JuiceDollar Protocol (Referenced)
 
 | Contract | Address |
 |----------|---------|
-| JUSD | [`0xFdB0a83d94CD65151148a131167Eb499Cb85d015`](https://explorer.testnet.citrea.xyz/address/0xFdB0a83d94CD65151148a131167Eb499Cb85d015) |
-| JUICE (Equity) | [`0x7b2A560bf72B0Dd2EAbE3271F829C2597c8420d5`](https://explorer.testnet.citrea.xyz/address/0x7b2A560bf72B0Dd2EAbE3271F829C2597c8420d5) |
-| svJUSD (SavingsVault) | [`0x9580498224551E3f2e3A04330a684BF025111C53`](https://explorer.testnet.citrea.xyz/address/0x9580498224551E3f2e3A04330a684BF025111C53) |
+| JUSD | [`0x6a850a548fdd050e8961223ec8FfCDfacEa57E39`](https://explorer.testnet.citrea.xyz/address/0x6a850a548fdd050e8961223ec8FfCDfacEa57E39) |
+| JUICE (Equity) | [`0x7fa131991c8A7d8C21b11391C977Fc7c4c8e0D5E`](https://explorer.testnet.citrea.xyz/address/0x7fa131991c8A7d8C21b11391C977Fc7c4c8e0D5E) |
+| svJUSD (SavingsVault) | [`0x802a29bD29f02c8C477Af5362f9ba88FAe39Cc7B`](https://explorer.testnet.citrea.xyz/address/0x802a29bD29f02c8C477Af5362f9ba88FAe39Cc7B) |
 | WcBTC | [`0x8d0c9d1c17aE5e40ffF9bE350f57840E9E66Cd93`](https://explorer.testnet.citrea.xyz/address/0x8d0c9d1c17aE5e40ffF9bE350f57840E9E66Cd93) |
 
 ## Why JuiceSwap?

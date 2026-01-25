@@ -9,13 +9,19 @@
   },
   "repository": "https://github.com/JuiceSwapxyz/documentation/",
   "scripts": {
-    "start": "vuepress dev src",
-    "build": "vuepress build src"
+    "generate-addresses": "node scripts/generate-addresses.js",
+    "start": "npm run generate-addresses && vuepress dev src",
+    "build": "npm run generate-addresses && vuepress build src"
   },
   "license": "MIT",
+  "dependencies": {
+    "@juicedollar/jusd": "^1.1.0",
+    "@juiceswapxyz/sdk-core": "^0.1.11-beta.0",
+    "viem": "^2.45.0"
+  },
   "devDependencies": {
-    "vuepress": "^1.5.3",
     "@vuepress/plugin-back-to-top": "^1.5.3",
-    "@vuepress/plugin-medium-zoom": "^1.5.3"
+    "@vuepress/plugin-medium-zoom": "^1.5.3",
+    "vuepress": "^1.5.3"
   }
 }
