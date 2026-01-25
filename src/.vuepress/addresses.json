@@ -5,7 +5,7 @@
     "jusd": "0x6a850a548fdd050e8961223ec8FfCDfacEa57E39",
     "juice": "0x7fa131991c8A7d8C21b11391C977Fc7c4c8e0D5E",
     "svJusd": "0x802a29bD29f02c8C477Af5362f9ba88FAe39Cc7B",
-    "wcbtc": "0x8d0c9d1c17aE5e40ffF9bE350f57840E9E66Cd93"
+    "wcbtc": null
   },
   "juiceSwap": {
     "gateway": "0x8eE3Dd585752805A258ad3a963949a7c3fec44eB",

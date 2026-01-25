@@ -83,7 +83,7 @@ const CONTRACTS = [
   },
   {
     name: 'WcBTC',
-    address: jusdAddresses.wcbtc || '0x8d0c9d1c17aE5e40ffF9bE350f57840E9E66Cd93',
+    address: jusdAddresses.wcbtc, // May be undefined - will be skipped if not in package
     inlinePattern: /\bWcBTC\b|\bwcbtc\b/i,
     sectionPattern: /^#{1,4}\s*WcBTC/i,
   },
@@ -262,7 +262,7 @@ fs.writeFileSync(
         jusd: jusdAddresses.juiceDollar,
         juice: jusdAddresses.equity,
         svJusd: jusdAddresses.savingsVaultJUSD,
-        wcbtc: jusdAddresses.wcbtc || '0x8d0c9d1c17aE5e40ffF9bE350f57840E9E66Cd93',
+        wcbtc: jusdAddresses.wcbtc || null,
       },
       juiceSwap: {
         gateway: juiceswapAddresses.juiceSwapGatewayAddress,
