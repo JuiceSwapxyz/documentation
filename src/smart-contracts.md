@@ -243,12 +243,12 @@ Wrapped version of native cBTC for ERC-20 compatibility.
 
 | Contract | Address | Purpose |
 |----------|---------|---------|
-| JuiceSwapGateway | [`0x3b59...5153`](https://explorer.testnet.citrea.xyz/address/0x8eE3Dd585752805A258ad3a963949a7c3fec44eB) | User-facing swap/LP interface |
-| JuiceSwapGovernor | [`0x2059...74e9`](https://explorer.testnet.citrea.xyz/address/0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8) | Governance proposals |
-| JuiceSwapFeeCollector | [`0xc3d8...E32a`](https://explorer.testnet.citrea.xyz/address/0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E) | Fee collection & distribution |
-| UniswapV3Factory | [`0x9136...F0b2`](https://explorer.testnet.citrea.xyz/address/0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238) | Pool creation |
-| SwapRouter | [`0x2d11...3E7f`](https://explorer.testnet.citrea.xyz/address/0x26C106BC45E0dd599cbDD871605497B2Fc87c185) | Swap routing |
-| NonfungiblePositionManager | [`0x56D6...02E1`](https://explorer.testnet.citrea.xyz/address/0x86e7A161cb9696E6d438c0c77dd18244efa2B8b1) | LP NFT management |
+| JuiceSwapGateway | [`0x8eE3...44eB`](https://explorer.testnet.citrea.xyz/address/0x8eE3Dd585752805A258ad3a963949a7c3fec44eB) | User-facing swap/LP interface |
+| JuiceSwapGovernor | [`0x8AFD...A2B8`](https://explorer.testnet.citrea.xyz/address/0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8) | Governance proposals |
+| JuiceSwapFeeCollector | [`0xfac6...C47E`](https://explorer.testnet.citrea.xyz/address/0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E) | Fee collection & distribution |
+| UniswapV3Factory | [`0xdd6D...4238`](https://explorer.testnet.citrea.xyz/address/0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238) | Pool creation |
+| SwapRouter | [`0x26C1...c185`](https://explorer.testnet.citrea.xyz/address/0x26C106BC45E0dd599cbDD871605497B2Fc87c185) | Swap routing |
+| NonfungiblePositionManager | [`0x86e7...B8b1`](https://explorer.testnet.citrea.xyz/address/0x86e7A161cb9696E6d438c0c77dd18244efa2B8b1) | LP NFT management |
 
 ---
 

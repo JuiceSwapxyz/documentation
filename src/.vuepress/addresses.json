@@ -1,7 +1,6 @@
 {
   "chainId": 5115,
   "network": "Citrea Testnet",
-  "generatedAt": "2026-01-25T15:58:22.978Z",
   "juiceDollar": {
     "jusd": "0x6a850a548fdd050e8961223ec8FfCDfacEa57E39",
     "juice": "0x7fa131991c8A7d8C21b11391C977Fc7c4c8e0D5E",

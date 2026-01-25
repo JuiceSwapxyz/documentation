@@ -9,9 +9,9 @@
   },
   "repository": "https://github.com/JuiceSwapxyz/documentation/",
   "scripts": {
-    "generate-addresses": "node scripts/generate-addresses.js",
-    "start": "npm run generate-addresses && vuepress dev src",
-    "build": "npm run generate-addresses && vuepress build src"
+    "sync-addresses": "node scripts/sync-addresses.js",
+    "start": "vuepress dev src",
+    "build": "vuepress build src"
   },
   "license": "MIT",
   "dependencies": {
