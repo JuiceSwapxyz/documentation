@@ -27,6 +27,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Update address packages to latest
+        run: npm update @juicedollar/jusd @juiceswapxyz/sdk-core
+
       - name: Sync addresses from packages
         id: sync
         run: |
