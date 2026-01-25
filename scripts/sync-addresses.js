@@ -243,39 +243,3 @@ if (changes.length > 0) {
     console.log(`    + ${c.new}`)
   })
 }
-
-// Write addresses to JSON file for reference (without timestamp for clean diffs)
-const addressesJsonPath = path.join(SRC_DIR, '.vuepress', 'addresses.json')
-const addressesDir = path.dirname(addressesJsonPath)
-
-if (!fs.existsSync(addressesDir)) {
-  fs.mkdirSync(addressesDir, { recursive: true })
-}
-
-fs.writeFileSync(
-  addressesJsonPath,
-  JSON.stringify(
-    {
-      chainId: CHAIN_ID,
-      network: 'Citrea Testnet',
-      juiceDollar: {
-        jusd: jusdAddresses.juiceDollar,
-        juice: jusdAddresses.equity,
-        svJusd: jusdAddresses.savingsVaultJUSD,
-        wcbtc: jusdAddresses.wcbtc || null,
-      },
-      juiceSwap: {
-        gateway: juiceswapAddresses.juiceSwapGatewayAddress,
-        governor: juiceswapAddresses.juiceSwapGovernorAddress,
-        feeCollector: juiceswapAddresses.juiceSwapFeeCollectorAddress,
-        factory: juiceswapAddresses.v3CoreFactoryAddress,
-        swapRouter: juiceswapAddresses.swapRouter02Address,
-        positionManager: juiceswapAddresses.nonfungiblePositionManagerAddress,
-      },
-    },
-    null,
-    2
-  ) + '\n'
-)
-
-console.log(`\nAddresses reference written to ${addressesJsonPath}`)
