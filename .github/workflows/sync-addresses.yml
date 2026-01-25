@@ -1,11 +1,8 @@
 name: Sync Contract Addresses
 
 on:
-  schedule:
-    # Run daily at 6:00 UTC
-    - cron: '0 6 * * *'
   workflow_dispatch:
-    # Allow manual trigger
+    # Manual trigger when contracts are redeployed
 
 permissions:
   contents: write
