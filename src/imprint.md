@@ -43,7 +43,7 @@ The protocol consists of immutable smart contracts deployed on Citrea Testnet:
 JuiceSwap is built and maintained by its community:
 
 - **GitHub**: [github.com/JuiceSwapxyz](https://github.com/JuiceSwapxyz)
-- **Website**: [juiceswap.xyz](https://juiceswap.xyz)
+- **Website**: [juiceswap.com](https://juiceswap.com)
 
 ## Legal Notice
 
