@@ -323,5 +323,5 @@ All source code is available on GitHub:
 
 | Network | Chain ID | Explorer |
 |---------|----------|----------|
-| **Mainnet** | 4114 | [explorer.citrea.xyz](https://explorer.mainnet.citrea.xyz) |
+| **Mainnet** | 4114 | [explorer.mainnet.citrea.xyz](https://explorer.mainnet.citrea.xyz) |
 | **Testnet** | 5115 | [explorer.testnet.citrea.xyz](https://explorer.testnet.citrea.xyz) |
