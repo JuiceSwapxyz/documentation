@@ -34,16 +34,16 @@ The protocol consists of immutable smart contracts deployed on Citrea Testnet:
 
 | Contract | Address |
 |----------|---------|
-| JuiceSwapGateway | [`0x3b59BCd4eFe392d715f4c57fA4218BFCAD5FB153`](https://explorer.testnet.citrea.xyz/address/0x3b59BCd4eFe392d715f4c57fA4218BFCAD5FB153) |
-| JuiceSwapGovernor | [`0x205903c54C56bCED8C97f2DC250BA53d715174e9`](https://explorer.testnet.citrea.xyz/address/0x205903c54C56bCED8C97f2DC250BA53d715174e9) |
-| JuiceSwapFeeCollector | [`0xc3d817C394d55aB57f5bF0Fc5C6878ccE033E32a`](https://explorer.testnet.citrea.xyz/address/0xc3d817C394d55aB57f5bF0Fc5C6878ccE033E32a) |
+| JuiceSwapGateway | [`0x8eE3Dd585752805A258ad3a963949a7c3fec44eB`](https://explorer.testnet.citrea.xyz/address/0x8eE3Dd585752805A258ad3a963949a7c3fec44eB) |
+| JuiceSwapGovernor | [`0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8`](https://explorer.testnet.citrea.xyz/address/0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8) |
+| JuiceSwapFeeCollector | [`0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E`](https://explorer.testnet.citrea.xyz/address/0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E) |
 
 ## Community
 
 JuiceSwap is built and maintained by its community:
 
 - **GitHub**: [github.com/JuiceSwapxyz](https://github.com/JuiceSwapxyz)
-- **Website**: [juiceswap.xyz](https://juiceswap.xyz)
+- **Website**: [juiceswap.com](https://juiceswap.com)
 
 ## Legal Notice
 

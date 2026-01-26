@@ -189,6 +189,6 @@ event SwapExecuted(
 
 | Contract | Address |
 |----------|---------|
-| JuiceSwapGateway | [`0x3b59BCd4eFe392d715f4c57fA4218BFCAD5FB153`](https://explorer.testnet.citrea.xyz/address/0x3b59BCd4eFe392d715f4c57fA4218BFCAD5FB153) |
-| SwapRouter | [`0x2d11a82633adD5b8742311fDa0E751264d093E7f`](https://explorer.testnet.citrea.xyz/address/0x2d11a82633adD5b8742311fDa0E751264d093E7f) |
-| UniswapV3Factory | [`0x9136D17Ec096AAd031D442a796cd5984128cF0b2`](https://explorer.testnet.citrea.xyz/address/0x9136D17Ec096AAd031D442a796cd5984128cF0b2) |
+| JuiceSwapGateway | [`0x8eE3Dd585752805A258ad3a963949a7c3fec44eB`](https://explorer.testnet.citrea.xyz/address/0x8eE3Dd585752805A258ad3a963949a7c3fec44eB) |
+| SwapRouter | [`0x26C106BC45E0dd599cbDD871605497B2Fc87c185`](https://explorer.testnet.citrea.xyz/address/0x26C106BC45E0dd599cbDD871605497B2Fc87c185) |
+| UniswapV3Factory | [`0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238`](https://explorer.testnet.citrea.xyz/address/0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238) |

@@ -63,7 +63,7 @@ The main entry point for users, handling automatic token conversions.
 
 | Property | Value |
 |----------|-------|
-| **Address** | [`0x3b59BCd4eFe392d715f4c57fA4218BFCAD5FB153`](https://explorer.testnet.citrea.xyz/address/0x3b59BCd4eFe392d715f4c57fA4218BFCAD5FB153) |
+| **Address** | [`0x8eE3Dd585752805A258ad3a963949a7c3fec44eB`](https://explorer.testnet.citrea.xyz/address/0x8eE3Dd585752805A258ad3a963949a7c3fec44eB) |
 | **Default Fee** | 3000 (0.30%) |
 | **Max Bridged Tokens** | 10 |
 
@@ -91,7 +91,7 @@ Governance contract using JUICE token voting with veto mechanism.
 
 | Property | Value |
 |----------|-------|
-| **Address** | [`0x205903c54C56bCED8C97f2DC250BA53d715174e9`](https://explorer.testnet.citrea.xyz/address/0x205903c54C56bCED8C97f2DC250BA53d715174e9) |
+| **Address** | [`0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8`](https://explorer.testnet.citrea.xyz/address/0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8) |
 | **Proposal Fee** | 1,000 JUSD |
 | **Min Application Period** | 14 days |
 | **Veto Quorum** | 2% |
@@ -121,7 +121,7 @@ Automated protocol fee collection with TWAP-based frontrunning protection.
 
 | Property | Value |
 |----------|-------|
-| **Address** | [`0xc3d817C394d55aB57f5bF0Fc5C6878ccE033E32a`](https://explorer.testnet.citrea.xyz/address/0xc3d817C394d55aB57f5bF0Fc5C6878ccE033E32a) |
+| **Address** | [`0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E`](https://explorer.testnet.citrea.xyz/address/0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E) |
 | **TWAP Period** | 30 minutes (1800 seconds) |
 | **Max Slippage** | 2% (200 bps) |
 | **Block Time** | 2 seconds (Citrea) |
@@ -145,7 +145,7 @@ Creates and manages liquidity pools.
 
 | Property | Value |
 |----------|-------|
-| **Address** | [`0x9136D17Ec096AAd031D442a796cd5984128cF0b2`](https://explorer.testnet.citrea.xyz/address/0x9136D17Ec096AAd031D442a796cd5984128cF0b2) |
+| **Address** | [`0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238`](https://explorer.testnet.citrea.xyz/address/0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238) |
 | **Owner** | JuiceSwapFeeCollector |
 
 ### Fee Tiers
@@ -173,7 +173,7 @@ Routes swaps through the most efficient path.
 
 | Property | Value |
 |----------|-------|
-| **Address** | [`0x2d11a82633adD5b8742311fDa0E751264d093E7f`](https://explorer.testnet.citrea.xyz/address/0x2d11a82633adD5b8742311fDa0E751264d093E7f) |
+| **Address** | [`0x26C106BC45E0dd599cbDD871605497B2Fc87c185`](https://explorer.testnet.citrea.xyz/address/0x26C106BC45E0dd599cbDD871605497B2Fc87c185) |
 
 ---
 
@@ -193,7 +193,7 @@ Manages LP positions as NFTs (ERC-721).
 
 | Property | Value |
 |----------|-------|
-| **Address** | [`0x56D63E0F763b29F62bb7242420d028F86e9402E1`](https://explorer.testnet.citrea.xyz/address/0x56D63E0F763b29F62bb7242420d028F86e9402E1) |
+| **Address** | [`0x86e7A161cb9696E6d438c0c77dd18244efa2B8b1`](https://explorer.testnet.citrea.xyz/address/0x86e7A161cb9696E6d438c0c77dd18244efa2B8b1) |
 
 ---
 
@@ -207,7 +207,7 @@ The stablecoin used for trading pairs.
 
 | Property | Value |
 |----------|-------|
-| **Address** | [`0xFdB0a83d94CD65151148a131167Eb499Cb85d015`](https://explorer.testnet.citrea.xyz/address/0xFdB0a83d94CD65151148a131167Eb499Cb85d015) |
+| **Address** | [`0x6a850a548fdd050e8961223ec8FfCDfacEa57E39`](https://explorer.testnet.citrea.xyz/address/0x6a850a548fdd050e8961223ec8FfCDfacEa57E39) |
 | **Decimals** | 18 |
 
 ### svJUSD (SavingsVaultJUSD)
@@ -216,7 +216,7 @@ Interest-bearing JUSD vault (ERC-4626). Used in pools instead of plain JUSD.
 
 | Property | Value |
 |----------|-------|
-| **Address** | [`0x9580498224551E3f2e3A04330a684BF025111C53`](https://explorer.testnet.citrea.xyz/address/0x9580498224551E3f2e3A04330a684BF025111C53) |
+| **Address** | [`0x802a29bD29f02c8C477Af5362f9ba88FAe39Cc7B`](https://explorer.testnet.citrea.xyz/address/0x802a29bD29f02c8C477Af5362f9ba88FAe39Cc7B) |
 | **Symbol** | svJUSD |
 
 ### JUICE (Equity)
@@ -225,7 +225,7 @@ Governance token for voting and fee distribution.
 
 | Property | Value |
 |----------|-------|
-| **Address** | [`0x7b2A560bf72B0Dd2EAbE3271F829C2597c8420d5`](https://explorer.testnet.citrea.xyz/address/0x7b2A560bf72B0Dd2EAbE3271F829C2597c8420d5) |
+| **Address** | [`0x7fa131991c8A7d8C21b11391C977Fc7c4c8e0D5E`](https://explorer.testnet.citrea.xyz/address/0x7fa131991c8A7d8C21b11391C977Fc7c4c8e0D5E) |
 | **Decimals** | 18 |
 
 ### WcBTC (Wrapped cBTC)
@@ -243,12 +243,12 @@ Wrapped version of native cBTC for ERC-20 compatibility.
 
 | Contract | Address | Purpose |
 |----------|---------|---------|
-| JuiceSwapGateway | [`0x3b59...5153`](https://explorer.testnet.citrea.xyz/address/0x3b59BCd4eFe392d715f4c57fA4218BFCAD5FB153) | User-facing swap/LP interface |
-| JuiceSwapGovernor | [`0x2059...74e9`](https://explorer.testnet.citrea.xyz/address/0x205903c54C56bCED8C97f2DC250BA53d715174e9) | Governance proposals |
-| JuiceSwapFeeCollector | [`0xc3d8...E32a`](https://explorer.testnet.citrea.xyz/address/0xc3d817C394d55aB57f5bF0Fc5C6878ccE033E32a) | Fee collection & distribution |
-| UniswapV3Factory | [`0x9136...F0b2`](https://explorer.testnet.citrea.xyz/address/0x9136D17Ec096AAd031D442a796cd5984128cF0b2) | Pool creation |
-| SwapRouter | [`0x2d11...3E7f`](https://explorer.testnet.citrea.xyz/address/0x2d11a82633adD5b8742311fDa0E751264d093E7f) | Swap routing |
-| NonfungiblePositionManager | [`0x56D6...02E1`](https://explorer.testnet.citrea.xyz/address/0x56D63E0F763b29F62bb7242420d028F86e9402E1) | LP NFT management |
+| JuiceSwapGateway | [`0x8eE3...44eB`](https://explorer.testnet.citrea.xyz/address/0x8eE3Dd585752805A258ad3a963949a7c3fec44eB) | User-facing swap/LP interface |
+| JuiceSwapGovernor | [`0x8AFD...A2B8`](https://explorer.testnet.citrea.xyz/address/0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8) | Governance proposals |
+| JuiceSwapFeeCollector | [`0xfac6...47E`](https://explorer.testnet.citrea.xyz/address/0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E) | Fee collection & distribution |
+| UniswapV3Factory | [`0xdd6D...4238`](https://explorer.testnet.citrea.xyz/address/0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238) | Pool creation |
+| SwapRouter | [`0x26C1...c185`](https://explorer.testnet.citrea.xyz/address/0x26C106BC45E0dd599cbDD871605497B2Fc87c185) | Swap routing |
+| NonfungiblePositionManager | [`0x86e7...B8b1`](https://explorer.testnet.citrea.xyz/address/0x86e7A161cb9696E6d438c0c77dd18244efa2B8b1) | LP NFT management |
 
 ---
 
