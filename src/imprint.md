@@ -30,7 +30,17 @@ All JuiceSwap code is open source and available at:
 
 ## Smart Contract Addresses
 
-The protocol consists of immutable smart contracts deployed on Citrea Testnet:
+The protocol consists of immutable smart contracts deployed on Citrea:
+
+### Mainnet (Chain ID: 4114)
+
+| Contract | Address |
+|----------|---------|
+| JuiceSwapGateway | [`0xAFcfD58Fe17BEb0c9D15C51D19519682dFcdaab9`](https://explorer.mainnet.citrea.xyz/address/0xAFcfD58Fe17BEb0c9D15C51D19519682dFcdaab9) |
+| JuiceSwapGovernor | [`0x51f3D5905C768CCA2D4904Ca7877614CeaD607ae`](https://explorer.mainnet.citrea.xyz/address/0x51f3D5905C768CCA2D4904Ca7877614CeaD607ae) |
+| JuiceSwapFeeCollector | [`0xD2D68A452A6f5d9090153f52E64f23cc7fF8A97b`](https://explorer.mainnet.citrea.xyz/address/0xD2D68A452A6f5d9090153f52E64f23cc7fF8A97b) |
+
+### Testnet (Chain ID: 5115)
 
 | Contract | Address |
 |----------|---------|

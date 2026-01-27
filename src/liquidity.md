@@ -358,6 +358,16 @@ event LiquidityRemoved(
 
 ## Contract Addresses
 
+### Mainnet (Chain ID: 4114)
+
+| Contract | Address |
+|----------|---------|
+| JuiceSwapGateway | [`0xAFcfD58Fe17BEb0c9D15C51D19519682dFcdaab9`](https://explorer.mainnet.citrea.xyz/address/0xAFcfD58Fe17BEb0c9D15C51D19519682dFcdaab9) |
+| NonfungiblePositionManager | [`0x3D3821D358f56395d4053954f98aec0E1F0fa568`](https://explorer.mainnet.citrea.xyz/address/0x3D3821D358f56395d4053954f98aec0E1F0fa568) |
+| UniswapV3Factory | [`0xd809b1285aDd8eeaF1B1566Bf31B2B4C4Bba8e82`](https://explorer.mainnet.citrea.xyz/address/0xd809b1285aDd8eeaF1B1566Bf31B2B4C4Bba8e82) |
+
+### Testnet (Chain ID: 5115)
+
 | Contract | Address |
 |----------|---------|
 | JuiceSwapGateway | [`0x8eE3Dd585752805A258ad3a963949a7c3fec44eB`](https://explorer.testnet.citrea.xyz/address/0x8eE3Dd585752805A258ad3a963949a7c3fec44eB) |

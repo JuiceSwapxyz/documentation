@@ -284,6 +284,17 @@ This means:
 
 ## Contract Addresses
 
+### Mainnet (Chain ID: 4114)
+
+| Contract | Address |
+|----------|---------|
+| JuiceSwapGovernor | [`0x51f3D5905C768CCA2D4904Ca7877614CeaD607ae`](https://explorer.mainnet.citrea.xyz/address/0x51f3D5905C768CCA2D4904Ca7877614CeaD607ae) |
+| JuiceSwapFeeCollector | [`0xD2D68A452A6f5d9090153f52E64f23cc7fF8A97b`](https://explorer.mainnet.citrea.xyz/address/0xD2D68A452A6f5d9090153f52E64f23cc7fF8A97b) |
+| JUICE (Equity) | [`0x2A36f2b204B46Fd82653cd06d00c7fF757C99ae4`](https://explorer.mainnet.citrea.xyz/address/0x2A36f2b204B46Fd82653cd06d00c7fF757C99ae4) |
+| UniswapV3Factory | [`0xd809b1285aDd8eeaF1B1566Bf31B2B4C4Bba8e82`](https://explorer.mainnet.citrea.xyz/address/0xd809b1285aDd8eeaF1B1566Bf31B2B4C4Bba8e82) |
+
+### Testnet (Chain ID: 5115)
+
 | Contract | Address |
 |----------|---------|
 | JuiceSwapGovernor | [`0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8`](https://explorer.testnet.citrea.xyz/address/0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8) |
