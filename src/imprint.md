@@ -36,17 +36,17 @@ The protocol consists of immutable smart contracts deployed on Citrea:
 
 | Contract | Address |
 |----------|---------|
-| JuiceSwapGateway | [`0xAFcfD58Fe17BEb0c9D15C51D19519682dFcdaab9`](https://explorer.mainnet.citrea.xyz/address/0xAFcfD58Fe17BEb0c9D15C51D19519682dFcdaab9) |
-| JuiceSwapGovernor | [`0x51f3D5905C768CCA2D4904Ca7877614CeaD607ae`](https://explorer.mainnet.citrea.xyz/address/0x51f3D5905C768CCA2D4904Ca7877614CeaD607ae) |
-| JuiceSwapFeeCollector | [`0xD2D68A452A6f5d9090153f52E64f23cc7fF8A97b`](https://explorer.mainnet.citrea.xyz/address/0xD2D68A452A6f5d9090153f52E64f23cc7fF8A97b) |
+| JuiceSwapGateway | [`0xAFcfD58Fe17BEb0c9D15C51D19519682dFcdaab9`](https://citreascan.com/address/0xAFcfD58Fe17BEb0c9D15C51D19519682dFcdaab9) |
+| JuiceSwapGovernor | [`0x51f3D5905C768CCA2D4904Ca7877614CeaD607ae`](https://citreascan.com/address/0x51f3D5905C768CCA2D4904Ca7877614CeaD607ae) |
+| JuiceSwapFeeCollector | [`0xD2D68A452A6f5d9090153f52E64f23cc7fF8A97b`](https://citreascan.com/address/0xD2D68A452A6f5d9090153f52E64f23cc7fF8A97b) |
 
 ### Testnet (Chain ID: 5115)
 
 | Contract | Address |
 |----------|---------|
-| JuiceSwapGateway | [`0x8eE3Dd585752805A258ad3a963949a7c3fec44eB`](https://explorer.testnet.citrea.xyz/address/0x8eE3Dd585752805A258ad3a963949a7c3fec44eB) |
-| JuiceSwapGovernor | [`0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8`](https://explorer.testnet.citrea.xyz/address/0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8) |
-| JuiceSwapFeeCollector | [`0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E`](https://explorer.testnet.citrea.xyz/address/0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E) |
+| JuiceSwapGateway | [`0x8eE3Dd585752805A258ad3a963949a7c3fec44eB`](https://testnet.citreascan.com/address/0x8eE3Dd585752805A258ad3a963949a7c3fec44eB) |
+| JuiceSwapGovernor | [`0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8`](https://testnet.citreascan.com/address/0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8) |
+| JuiceSwapFeeCollector | [`0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E`](https://testnet.citreascan.com/address/0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E) |
 
 ## Community
 
