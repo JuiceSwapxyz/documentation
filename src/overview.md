@@ -114,32 +114,32 @@ JuiceSwap is tightly integrated with the JuiceDollar protocol:
 
 | Contract | Address |
 |----------|---------|
-| JuiceSwapGateway | [`0xAFcfD58Fe17BEb0c9D15C51D19519682dFcdaab9`](https://explorer.mainnet.citrea.xyz/address/0xAFcfD58Fe17BEb0c9D15C51D19519682dFcdaab9) |
-| JuiceSwapGovernor | [`0x51f3D5905C768CCA2D4904Ca7877614CeaD607ae`](https://explorer.mainnet.citrea.xyz/address/0x51f3D5905C768CCA2D4904Ca7877614CeaD607ae) |
-| JuiceSwapFeeCollector | [`0xD2D68A452A6f5d9090153f52E64f23cc7fF8A97b`](https://explorer.mainnet.citrea.xyz/address/0xD2D68A452A6f5d9090153f52E64f23cc7fF8A97b) |
-| UniswapV3Factory | [`0xd809b1285aDd8eeaF1B1566Bf31B2B4C4Bba8e82`](https://explorer.mainnet.citrea.xyz/address/0xd809b1285aDd8eeaF1B1566Bf31B2B4C4Bba8e82) |
-| SwapRouter | [`0x565eD3D57fe40f78A46f348C220121AE093c3cF8`](https://explorer.mainnet.citrea.xyz/address/0x565eD3D57fe40f78A46f348C220121AE093c3cF8) |
-| NonfungiblePositionManager | [`0x3D3821D358f56395d4053954f98aec0E1F0fa568`](https://explorer.mainnet.citrea.xyz/address/0x3D3821D358f56395d4053954f98aec0E1F0fa568) |
+| JuiceSwapGateway | [`0xAFcfD58Fe17BEb0c9D15C51D19519682dFcdaab9`](https://citreascan.com/address/0xAFcfD58Fe17BEb0c9D15C51D19519682dFcdaab9) |
+| JuiceSwapGovernor | [`0x51f3D5905C768CCA2D4904Ca7877614CeaD607ae`](https://citreascan.com/address/0x51f3D5905C768CCA2D4904Ca7877614CeaD607ae) |
+| JuiceSwapFeeCollector | [`0xD2D68A452A6f5d9090153f52E64f23cc7fF8A97b`](https://citreascan.com/address/0xD2D68A452A6f5d9090153f52E64f23cc7fF8A97b) |
+| UniswapV3Factory | [`0xd809b1285aDd8eeaF1B1566Bf31B2B4C4Bba8e82`](https://citreascan.com/address/0xd809b1285aDd8eeaF1B1566Bf31B2B4C4Bba8e82) |
+| SwapRouter | [`0x565eD3D57fe40f78A46f348C220121AE093c3cF8`](https://citreascan.com/address/0x565eD3D57fe40f78A46f348C220121AE093c3cF8) |
+| NonfungiblePositionManager | [`0x3D3821D358f56395d4053954f98aec0E1F0fa568`](https://citreascan.com/address/0x3D3821D358f56395d4053954f98aec0E1F0fa568) |
 
 ### Testnet (Chain ID: 5115)
 
 | Contract | Address |
 |----------|---------|
-| JuiceSwapGateway | [`0x8eE3Dd585752805A258ad3a963949a7c3fec44eB`](https://explorer.testnet.citrea.xyz/address/0x8eE3Dd585752805A258ad3a963949a7c3fec44eB) |
-| JuiceSwapGovernor | [`0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8`](https://explorer.testnet.citrea.xyz/address/0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8) |
-| JuiceSwapFeeCollector | [`0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E`](https://explorer.testnet.citrea.xyz/address/0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E) |
-| UniswapV3Factory | [`0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238`](https://explorer.testnet.citrea.xyz/address/0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238) |
-| SwapRouter | [`0x26C106BC45E0dd599cbDD871605497B2Fc87c185`](https://explorer.testnet.citrea.xyz/address/0x26C106BC45E0dd599cbDD871605497B2Fc87c185) |
-| NonfungiblePositionManager | [`0x86e7A161cb9696E6d438c0c77dd18244efa2B8b1`](https://explorer.testnet.citrea.xyz/address/0x86e7A161cb9696E6d438c0c77dd18244efa2B8b1) |
+| JuiceSwapGateway | [`0x8eE3Dd585752805A258ad3a963949a7c3fec44eB`](https://testnet.citreascan.com/address/0x8eE3Dd585752805A258ad3a963949a7c3fec44eB) |
+| JuiceSwapGovernor | [`0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8`](https://testnet.citreascan.com/address/0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8) |
+| JuiceSwapFeeCollector | [`0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E`](https://testnet.citreascan.com/address/0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E) |
+| UniswapV3Factory | [`0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238`](https://testnet.citreascan.com/address/0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238) |
+| SwapRouter | [`0x26C106BC45E0dd599cbDD871605497B2Fc87c185`](https://testnet.citreascan.com/address/0x26C106BC45E0dd599cbDD871605497B2Fc87c185) |
+| NonfungiblePositionManager | [`0x86e7A161cb9696E6d438c0c77dd18244efa2B8b1`](https://testnet.citreascan.com/address/0x86e7A161cb9696E6d438c0c77dd18244efa2B8b1) |
 
 ### JuiceDollar Protocol (Referenced)
 
 | Contract | Mainnet | Testnet |
 |----------|---------|---------|
-| JUSD | [`0x0987...35C`](https://explorer.mainnet.citrea.xyz/address/0x0987D3720D38847ac6dBB9D025B9dE892a3CA35C) | [`0x6a85...E39`](https://explorer.testnet.citrea.xyz/address/0x6a850a548fdd050e8961223ec8FfCDfacEa57E39) |
-| JUICE (Equity) | [`0x2A36...ae4`](https://explorer.mainnet.citrea.xyz/address/0x2A36f2b204B46Fd82653cd06d00c7fF757C99ae4) | [`0x7fa1...D5E`](https://explorer.testnet.citrea.xyz/address/0x7fa131991c8A7d8C21b11391C977Fc7c4c8e0D5E) |
-| svJUSD (SavingsVault) | [`0x1b70...97d`](https://explorer.mainnet.citrea.xyz/address/0x1b70ae756b1089cc5948e4f8a2AD498DF30E897d) | [`0x802a...c7B`](https://explorer.testnet.citrea.xyz/address/0x802a29bD29f02c8C477Af5362f9ba88FAe39Cc7B) |
-| WcBTC | [`0x3100...006`](https://explorer.mainnet.citrea.xyz/address/0x3100000000000000000000000000000000000006) | [`0x8d0c...d93`](https://explorer.testnet.citrea.xyz/address/0x8d0c9d1c17aE5e40ffF9bE350f57840E9E66Cd93) |
+| JUSD | [`0x0987...35C`](https://citreascan.com/address/0x0987D3720D38847ac6dBB9D025B9dE892a3CA35C) | [`0x6a85...E39`](https://testnet.citreascan.com/address/0x6a850a548fdd050e8961223ec8FfCDfacEa57E39) |
+| JUICE (Equity) | [`0x2A36...ae4`](https://citreascan.com/address/0x2A36f2b204B46Fd82653cd06d00c7fF757C99ae4) | [`0x7fa1...D5E`](https://testnet.citreascan.com/address/0x7fa131991c8A7d8C21b11391C977Fc7c4c8e0D5E) |
+| svJUSD (SavingsVault) | [`0x1b70...97d`](https://citreascan.com/address/0x1b70ae756b1089cc5948e4f8a2AD498DF30E897d) | [`0x802a...c7B`](https://testnet.citreascan.com/address/0x802a29bD29f02c8C477Af5362f9ba88FAe39Cc7B) |
+| WcBTC | [`0x3100...006`](https://citreascan.com/address/0x3100000000000000000000000000000000000006) | [`0x8d0c...d93`](https://testnet.citreascan.com/address/0x8d0c9d1c17aE5e40ffF9bE350f57840E9E66Cd93) |
 
 ## Why JuiceSwap?
 
@@ -173,4 +173,4 @@ JuiceSwap is tightly integrated with the JuiceDollar protocol:
 - **App**: [bapp.juiceswap.com](https://bapp.juiceswap.com)
 - **GitHub**: [github.com/JuiceSwapxyz](https://github.com/JuiceSwapxyz)
 - **JuiceDollar Docs**: [docs.juicedollar.com](https://docs.juicedollar.com)
-- **Explorer**: [explorer.testnet.citrea.xyz](https://explorer.testnet.citrea.xyz)
+- **Explorer**: [explorer.testnet.citrea.xyz](https://testnet.citreascan.com)

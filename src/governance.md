@@ -288,16 +288,16 @@ This means:
 
 | Contract | Address |
 |----------|---------|
-| JuiceSwapGovernor | [`0x51f3D5905C768CCA2D4904Ca7877614CeaD607ae`](https://explorer.mainnet.citrea.xyz/address/0x51f3D5905C768CCA2D4904Ca7877614CeaD607ae) |
-| JuiceSwapFeeCollector | [`0xD2D68A452A6f5d9090153f52E64f23cc7fF8A97b`](https://explorer.mainnet.citrea.xyz/address/0xD2D68A452A6f5d9090153f52E64f23cc7fF8A97b) |
-| JUICE (Equity) | [`0x2A36f2b204B46Fd82653cd06d00c7fF757C99ae4`](https://explorer.mainnet.citrea.xyz/address/0x2A36f2b204B46Fd82653cd06d00c7fF757C99ae4) |
-| UniswapV3Factory | [`0xd809b1285aDd8eeaF1B1566Bf31B2B4C4Bba8e82`](https://explorer.mainnet.citrea.xyz/address/0xd809b1285aDd8eeaF1B1566Bf31B2B4C4Bba8e82) |
+| JuiceSwapGovernor | [`0x51f3D5905C768CCA2D4904Ca7877614CeaD607ae`](https://citreascan.com/address/0x51f3D5905C768CCA2D4904Ca7877614CeaD607ae) |
+| JuiceSwapFeeCollector | [`0xD2D68A452A6f5d9090153f52E64f23cc7fF8A97b`](https://citreascan.com/address/0xD2D68A452A6f5d9090153f52E64f23cc7fF8A97b) |
+| JUICE (Equity) | [`0x2A36f2b204B46Fd82653cd06d00c7fF757C99ae4`](https://citreascan.com/address/0x2A36f2b204B46Fd82653cd06d00c7fF757C99ae4) |
+| UniswapV3Factory | [`0xd809b1285aDd8eeaF1B1566Bf31B2B4C4Bba8e82`](https://citreascan.com/address/0xd809b1285aDd8eeaF1B1566Bf31B2B4C4Bba8e82) |
 
 ### Testnet (Chain ID: 5115)
 
 | Contract | Address |
 |----------|---------|
-| JuiceSwapGovernor | [`0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8`](https://explorer.testnet.citrea.xyz/address/0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8) |
-| JuiceSwapFeeCollector | [`0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E`](https://explorer.testnet.citrea.xyz/address/0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E) |
-| JUICE (Equity) | [`0x7fa131991c8A7d8C21b11391C977Fc7c4c8e0D5E`](https://explorer.testnet.citrea.xyz/address/0x7fa131991c8A7d8C21b11391C977Fc7c4c8e0D5E) |
-| UniswapV3Factory | [`0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238`](https://explorer.testnet.citrea.xyz/address/0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238) |
+| JuiceSwapGovernor | [`0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8`](https://testnet.citreascan.com/address/0x8AFD7CB73Ce85b44996B86ec604c125af244A2B8) |
+| JuiceSwapFeeCollector | [`0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E`](https://testnet.citreascan.com/address/0xfac6303F78A2b316a20eD927Ba0f7a7d07AaC47E) |
+| JUICE (Equity) | [`0x7fa131991c8A7d8C21b11391C977Fc7c4c8e0D5E`](https://testnet.citreascan.com/address/0x7fa131991c8A7d8C21b11391C977Fc7c4c8e0D5E) |
+| UniswapV3Factory | [`0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238`](https://testnet.citreascan.com/address/0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238) |

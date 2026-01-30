@@ -191,14 +191,14 @@ event SwapExecuted(
 
 | Contract | Address |
 |----------|---------|
-| JuiceSwapGateway | [`0xAFcfD58Fe17BEb0c9D15C51D19519682dFcdaab9`](https://explorer.mainnet.citrea.xyz/address/0xAFcfD58Fe17BEb0c9D15C51D19519682dFcdaab9) |
-| SwapRouter | [`0x565eD3D57fe40f78A46f348C220121AE093c3cF8`](https://explorer.mainnet.citrea.xyz/address/0x565eD3D57fe40f78A46f348C220121AE093c3cF8) |
-| UniswapV3Factory | [`0xd809b1285aDd8eeaF1B1566Bf31B2B4C4Bba8e82`](https://explorer.mainnet.citrea.xyz/address/0xd809b1285aDd8eeaF1B1566Bf31B2B4C4Bba8e82) |
+| JuiceSwapGateway | [`0xAFcfD58Fe17BEb0c9D15C51D19519682dFcdaab9`](https://citreascan.com/address/0xAFcfD58Fe17BEb0c9D15C51D19519682dFcdaab9) |
+| SwapRouter | [`0x565eD3D57fe40f78A46f348C220121AE093c3cF8`](https://citreascan.com/address/0x565eD3D57fe40f78A46f348C220121AE093c3cF8) |
+| UniswapV3Factory | [`0xd809b1285aDd8eeaF1B1566Bf31B2B4C4Bba8e82`](https://citreascan.com/address/0xd809b1285aDd8eeaF1B1566Bf31B2B4C4Bba8e82) |
 
 ### Testnet (Chain ID: 5115)
 
 | Contract | Address |
 |----------|---------|
-| JuiceSwapGateway | [`0x8eE3Dd585752805A258ad3a963949a7c3fec44eB`](https://explorer.testnet.citrea.xyz/address/0x8eE3Dd585752805A258ad3a963949a7c3fec44eB) |
-| SwapRouter | [`0x26C106BC45E0dd599cbDD871605497B2Fc87c185`](https://explorer.testnet.citrea.xyz/address/0x26C106BC45E0dd599cbDD871605497B2Fc87c185) |
-| UniswapV3Factory | [`0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238`](https://explorer.testnet.citrea.xyz/address/0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238) |
+| JuiceSwapGateway | [`0x8eE3Dd585752805A258ad3a963949a7c3fec44eB`](https://testnet.citreascan.com/address/0x8eE3Dd585752805A258ad3a963949a7c3fec44eB) |
+| SwapRouter | [`0x26C106BC45E0dd599cbDD871605497B2Fc87c185`](https://testnet.citreascan.com/address/0x26C106BC45E0dd599cbDD871605497B2Fc87c185) |
+| UniswapV3Factory | [`0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238`](https://testnet.citreascan.com/address/0xdd6Db52dB41CE2C03002bB1adFdCC8E91C594238) |
