@@ -139,11 +139,11 @@ LPs earn the full swap fee for their tier (0.05%, 0.30%, or 1.00%). There's no p
 
 ### What network is JuiceSwap on?
 
-JuiceSwap is deployed on **Citrea Testnet** (Chain ID: 5115), Bitcoin's first ZK rollup.
+JuiceSwap is deployed on **Citrea Mainnet** (Chain ID: 4114) and **Testnet** (Chain ID: 5115), Bitcoin's first ZK rollup.
 
 ### What wallet do I need?
 
-Any EVM-compatible wallet works (MetaMask, Rainbow, etc.). Make sure to add Citrea Testnet to your wallet.
+Any EVM-compatible wallet works (MetaMask, Rainbow, etc.). Make sure to add the Citrea network to your wallet.
 
 ### Are the contracts upgradeable?
 
