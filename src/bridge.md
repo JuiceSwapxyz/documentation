@@ -1,10 +1,10 @@
-# Lightning Bridge
+# Bridge
 
 **Bridge assets between Bitcoin Lightning Network, Citrea, Ethereum, and Polygon via Lightning.Space (LDS).**
 
 ## Overview
 
-The Lightning Bridge enables trustless cross-chain swaps powered by [Lightning.Space](https://lightning.space) (LDS). It uses atomic swaps with HTLCs (Hash Time-Locked Contracts) and MuSig2 cooperative signing to bridge assets between:
+The Bridge enables trustless cross-chain swaps powered by [Lightning.Space](https://lightning.space) (LDS). It uses atomic swaps with HTLCs (Hash Time-Locked Contracts) and MuSig2 cooperative signing to bridge assets between:
 
 - **Bitcoin Lightning Network** ↔ Citrea (cBTC)
 - **Citrea** ↔ Ethereum (WBTC, USDT, USDC)
@@ -145,7 +145,7 @@ function refund(
 
 ## API Reference
 
-The Lightning Bridge communicates with the LDS API (`REACT_APP_LDS_API_URL`).
+The Bridge communicates with the LDS API (`REACT_APP_LDS_API_URL`).
 
 ### Submarine Swaps
 

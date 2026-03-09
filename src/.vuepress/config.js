@@ -42,7 +42,7 @@ module.exports = {
     sidebar: [
       { title: "Overview", path: "/overview" },
       { title: "Swapping Tokens", path: "/swap" },
-      { title: "Lightning Bridge", path: "/lightning-bridge" },
+      { title: "Bridge", path: "/bridge" },
       { title: "Providing Liquidity", path: "/liquidity" },
       { title: "Governance", path: "/governance" },
       { title: "Smart Contracts", path: "/smart-contracts" },
