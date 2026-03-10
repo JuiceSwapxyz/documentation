@@ -34,7 +34,7 @@ module.exports = {
 
     nav: [
       {
-        text: "JuiceSwap.xyz",
+        text: "JuiceSwap.com",
         link: "https://juiceswap.com/",
       },
     ],
