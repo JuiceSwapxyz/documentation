@@ -1,6 +1,6 @@
 # JuiceSwap Media Kit
 
-Comprehensive brand assets for JuiceSwap.xyz
+Comprehensive brand assets for JuiceSwap.com
 
 ## 📁 Directory Structure
 
@@ -110,7 +110,7 @@ https://docs.juiceswap.com/media_kit/03_Website/Favicon/ICO/favicon.ico
 - Use high-resolution files for print materials
 
 ## 📄 License
-All assets are property of JuiceSwap.xyz
+All assets are property of JuiceSwap.com
 
 ---
 *Last updated: October 2025*
