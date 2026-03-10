@@ -1,22 +1,24 @@
 # Bridge
 
-**Bridge assets between Bitcoin Lightning Network, Citrea, Ethereum, and Polygon via Lightning.Space (LDS).**
+**Bridge assets between Bitcoin, Citrea, Ethereum, and Polygon via Lightning.Space (LDS).**
 
 ## Overview
 
 The Bridge enables trustless cross-chain swaps powered by [Lightning.Space](https://lightning.space) (LDS). It uses atomic swaps with HTLCs (Hash Time-Locked Contracts) and MuSig2 cooperative signing to bridge assets between:
 
-- **Bitcoin Lightning Network** ↔ Citrea (cBTC)
-- **Citrea** ↔ Ethereum (WBTC, USDT, USDC)
-- **Citrea** ↔ Polygon (USDT)
+- **Bitcoin** ↔ Citrea (cBTC)
+- **Citrea** (cBTC) ↔ Ethereum (WBTC)
+- **Ethereum** (WBTC) ↔ Citrea (WBTCe)
+- **Citrea** (JUSD) ↔ Ethereum (USDT, USDC)
+- **Citrea** (JUSD) ↔ Polygon (USDT)
 
 All swaps are non-custodial. Funds are locked in smart contracts and can only be claimed with a valid preimage or refunded after a timeout.
 
 ## Swap Types
 
-### Submarine Swap (cBTC → BTC Lightning)
+### Submarine Swap (cBTC/BTC → BTC Lightning)
 
-Sends cBTC on Citrea and receives BTC via a Lightning invoice.
+Sends cBTC on Citrea (or BTC on-chain) and receives BTC via a Lightning invoice.
 
 **Flow:**
 
@@ -28,9 +30,9 @@ Sends cBTC on Citrea and receives BTC via a Lightning invoice.
 
 **Status progression:** `invoice.set` → `transaction.mempool` → `transaction.confirmed` → `invoice.settled`
 
-### Reverse Swap (BTC Lightning → cBTC)
+### Reverse Swap (BTC Lightning → cBTC/BTC)
 
-Sends BTC via Lightning and receives cBTC on Citrea.
+Sends BTC via Lightning and receives cBTC on Citrea (or BTC on-chain).
 
 **Flow:**
 
@@ -42,26 +44,28 @@ Sends BTC via Lightning and receives cBTC on Citrea.
 
 **Status progression:** `swap.created` → `transaction.server.mempool` → `transaction.server.confirmed` → `transaction.claimed`
 
-### Chain Swap (EVM ↔ EVM / EVM ↔ BTC)
+### Chain Swap (Cross-Chain)
 
-Bridges assets between EVM chains (Citrea, Ethereum, Polygon) or between an EVM chain and Bitcoin.
-
-**Supported pairs include:**
+Bridges assets between chains. Supported pairs (from the live API):
 
 | From | To |
 |------|-----|
-| cBTC (Citrea) | WBTC (Ethereum) |
-| cBTC (Citrea) | USDT (Ethereum) |
-| cBTC (Citrea) | USDC (Ethereum) |
-| cBTC (Citrea) | USDT (Polygon) |
 | cBTC (Citrea) | BTC (on-chain) |
-| WBTC (Ethereum) | cBTC (Citrea) |
-| USDT (Ethereum) | cBTC (Citrea) |
-| USDC (Ethereum) | cBTC (Citrea) |
-| USDT (Polygon) | cBTC (Citrea) |
+| cBTC (Citrea) | WBTC (Ethereum) |
 | BTC (on-chain) | cBTC (Citrea) |
+| WBTC (Ethereum) | cBTC (Citrea) |
+| WBTC (Ethereum) | WBTCe (Citrea) |
+| WBTCe (Citrea) | WBTC (Ethereum) |
+| JUSD (Citrea) | USDT (Ethereum) |
+| JUSD (Citrea) | USDC (Ethereum) |
+| JUSD (Citrea) | USDT (Polygon) |
+| USDT (Ethereum) | JUSD (Citrea) |
+| USDC (Ethereum) | JUSD (Citrea) |
+| USDT (Polygon) | JUSD (Citrea) |
 
-**Flow (EVM → EVM):**
+> **Note:** Stablecoin bridges always route through JUSD on Citrea, not cBTC.
+
+**Flow:**
 
 1. User specifies source asset, destination asset, amount, and claim address
 2. LDS returns lockup details for both chains
@@ -105,7 +109,7 @@ function refund(
 
 ### ERC20Swap (Token Swaps)
 
-Used for locking and claiming ERC20 tokens (WBTC, USDT, USDC, JUSD, WBTCe).
+Used for locking and claiming ERC20 tokens (WBTC, WBTCe, JUSD, USDT, USDC).
 
 ```solidity
 // Lock ERC20 tokens (requires prior approval)
@@ -137,11 +141,13 @@ function refund(
 ) external
 ```
 
-### Contract Address
+### Contract Addresses
 
-| Contract | Address |
-|----------|---------|
-| LDS Bridge | [`0xDDA7efc856833960694cb26cb583e0CCCA497b87`](https://citreascan.com/address/0xDDA7efc856833960694cb26cb583e0CCCA497b87) |
+| Contract | Chain | Address |
+|----------|-------|---------|
+| CoinSwap | Citrea | [`0x7397f25f230f7d5a83c18e1b68b32511bf35f860`](https://citreascan.com/address/0x7397f25f230f7d5a83c18e1b68b32511bf35f860) |
+| ERC20Swap | Ethereum | [`0x2E21F58Da58c391F110467c7484EdfA849C1CB9B`](https://etherscan.io/address/0x2E21F58Da58c391F110467c7484EdfA849C1CB9B) |
+| LDS Liquidity | Citrea | [`0xDDA7efc856833960694cb26cb583e0CCCA497b87`](https://citreascan.com/address/0xDDA7efc856833960694cb26cb583e0CCCA497b87) |
 
 ## API Reference
 
@@ -314,25 +320,20 @@ Real-time swap status updates are available via WebSocket at `wss://<LDS_API_HOS
 
 Each swap pair has its own fee structure returned by the pair endpoints:
 
-- **Percentage fee**: Applied to the swap amount (e.g., 0.1–0.5%)
+- **Percentage fee**: Applied to the swap amount (e.g., 0–0.5%)
 - **Miner fees**: Fixed fee covering on-chain transaction costs
   - Submarine: single miner fee
   - Reverse: separate lockup and claim miner fees
   - Chain: separate server and user (claim + lockup) miner fees
 
+> Stablecoin pairs (JUSD ↔ USDT/USDC) currently have 0% fees and 0 miner fees.
+
 ## Limits
 
-Each pair defines minimum and maximum swap amounts (in satoshis):
+Each pair defines minimum and maximum swap amounts (in the smallest unit of the asset):
 
-```json
-{
-  "limits": {
-    "minimal": 10000,
-    "maximal": 10000000,
-    "maximalZeroConf": 100000
-  }
-}
-```
+- **BTC/cBTC/WBTC pairs**: limits in satoshis (e.g., min 2,500 sats, max 10,000,000 sats)
+- **Stablecoin pairs**: limits in token base units (e.g., min 100,000,000, max 1,000,000,000,000)
 
 The effective maximum is further constrained by the available on-chain liquidity of the LDS bridge contract.
 
